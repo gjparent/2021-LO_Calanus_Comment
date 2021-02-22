@@ -1,3 +1,10 @@
+# -------------------------------------------------------------------
+# ADD A DESCRIPTION OF THE PURPOSE OF THIS CODE
+# Just in case someone upload it without all the project
+#
+# Genevieve Parent
+# 2021-02-22
+
 # Loading packages-----------------------------------------------------------------
 library(adegraphics)
 library(adegenet)
@@ -6,10 +13,9 @@ library(ggplot2)
 library(pegas)
 
 # Set up, data load, formatting-------------------------------------------
-setwd ("C:/Users/parentg/Documents/R/Projects/2020-Limnology-and-Oceanography_Calanus-comment/Script/Results")
 
-geno<- read.loci("C:/Users/parentg/Documents/R/Projects/2020-Limnology-and-Oceanography_Calanus-comment/Data/indel_all.txt", allele.sep = "-", loci.sep = "\t", col.loci = 2:7, col.pop = 8, na.strings = "NA")
-info <- read.delim("C:/Users/parentg/Documents/R/Projects/2020-Limnology-and-Oceanography_Calanus-comment/Data/indel_all.txt", header=TRUE)
+geno<- read.loci("./Data/indel_all.txt", allele.sep = "-", loci.sep = "\t", col.loci = 2:7, col.pop = 8, na.strings = "NA")
+info <- read.delim("./Data/indel_all.txt", header=TRUE)
 geno.gi <- loci2genind(geno, ploidy=2)
 
 # PCA---------------------------------------------------------------------
