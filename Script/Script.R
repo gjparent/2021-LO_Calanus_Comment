@@ -13,7 +13,6 @@ library(ggplot2)
 library(pegas)
 
 # Set up, data load, formatting-------------------------------------------
-
 geno<- read.loci("./Data/indel_all.txt", allele.sep = "-", loci.sep = "\t", col.loci = 2:7, col.pop = 8, na.strings = "NA")
 info <- read.delim("./Data/indel_all.txt", header=TRUE)
 geno.gi <- loci2genind(geno, ploidy=2)
