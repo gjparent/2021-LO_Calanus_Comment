@@ -18,10 +18,10 @@ finmarchicus* and *C. glacialis* in a subarctic area of sympatry’
 
 ## Content
 
-Data [(here)](https://github.com/gjparent/2021-LO_Calanus_Comment/Data)
+Data [(here)](https://github.com/gjparent/2021-LO_Calanus_Comment/Data/)
 
 R script
-[(here)](https://github.com/gjparent/2021-LO_Calanus_Comment/Script)
+[(here)](https://github.com/gjparent/2021-LO_Calanus_Comment/Script/)
 
 -----
 
